@@ -1,13 +1,13 @@
-package com.integral.gastrit.handlers;
+package com.skinwalker.gastrit.handlers;
 
-import com.integral.gastrit.network.PacketSpawnParticle;
+import com.skinwalker.gastrit.network.PacketSpawnParticle;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 
-import static com.integral.gastrit.GastritMod.NETWORK;
+import static com.skinwalker.gastrit.GastritMod.NETWORK;
 
 public class NetworkHandler {
     public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel("gastrit");

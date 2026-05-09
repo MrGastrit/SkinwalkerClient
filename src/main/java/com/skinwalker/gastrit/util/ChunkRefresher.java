@@ -1,4 +1,4 @@
-package com.integral.gastrit.util;
+package com.skinwalker.gastrit.util;
 
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.world.WorldServer;

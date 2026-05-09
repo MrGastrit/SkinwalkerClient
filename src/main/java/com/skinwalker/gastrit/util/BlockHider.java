@@ -1,4 +1,4 @@
-package com.integral.gastrit.util;
+package com.skinwalker.gastrit.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;

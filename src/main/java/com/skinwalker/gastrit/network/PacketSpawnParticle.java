@@ -1,4 +1,4 @@
-package com.integral.gastrit.network;
+package com.skinwalker.gastrit.network;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.fml.relauncher.Side;
-import com.integral.gastrit.particles.ParticleCustomRedstone;
+import com.skinwalker.gastrit.particles.ParticleCustomRedstone;
 
 public class PacketSpawnParticle implements IMessage {
     private double x, y, z;
@@ -37,6 +37,7 @@ public class PacketSpawnParticle implements IMessage {
     }
 
     public static class Handler implements IMessageHandler<PacketSpawnParticle, IMessage> {
+
         @Override
         public IMessage onMessage(PacketSpawnParticle message, MessageContext ctx) {
             if (ctx.side == Side.CLIENT) {

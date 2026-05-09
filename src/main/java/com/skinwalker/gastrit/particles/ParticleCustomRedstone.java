@@ -1,4 +1,4 @@
-package com.integral.gastrit.particles;
+package com.skinwalker.gastrit.particles;
 
 import net.minecraft.client.particle.Particle;
 import net.minecraft.world.World;
